@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #454545;
+}
+
+.contato{
+    padding: 40px 50px 50px 50px;
+    text-align: center;
+    color: #FFF;
+}
+
+
+p{
+    text-align: center;
+}
+
+.inicio{
+    background-color: #454545;
+    padding: 40px 50px 150px 50px;
+
+}
+
+.logoMenu img{
+    width: 80px;
+}
+
+.linksMenu{
+    margin-left: 1000px;
+    font-size: 20px;
+}
+
+.linksMenu a{
+    margin: 25px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.apresentacao{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+}
+
+.textoApresentacao{
+    width: 550px;
+}
+
+.tituloApresentacao{
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.tituloEvidencia{
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.assunto{
+    background: #a3a277;
+    padding: 40px 50px 50px 50px;
+    text-align: center;
+}
+
+.textoassunto{
+    justify-content: center;
+    color: #FFF;
+}
+
+.causas{
+    background-color: #8ab364;
+    padding: 40px 50px 50px 50px;
+    text-align: center;
+}
+
+.fases{
+    background-color: #454545;
+    text-align: center;
+    padding: 40px 50px 50px 50px;
+}
+
+.fim{
+    background-color: #a3a277;
+    text-align: center;
+    padding: 40px 50px 50px 50px;
+}
+
+.consequencias{
+    background-color: #8ab364;
+    padding: 40px 50px 50px 50px;
+}
+
+h1{
+    text-align: center;
+    color: #FFF;
+}
+
+li{
+    margin: 10px;
+}
+
+#li{
+    margin-bottom: 0px;
+}
+
+.curiosidade{
+    background-color: #454545;
+    text-align: center;
+    padding: 40px 50px 50px 50px;
+}
+
+.momentos{
+    background-color: #a3a277;
+    padding: 40px 50px 50px 50px;
+}
