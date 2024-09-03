@@ -1,0 +1,461 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: url("imagem/fundo.png");
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: bisque;
+}
+
+div ul {
+    display: flex;
+}
+
+div ul a{
+    text-decoration: none;
+}
+
+div ul a li{
+    list-style-type: none;
+    color: saddlebrown;
+    font-size: x-large;
+    margin-right: 100px;
+}
+
+
+.title-pag1{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+}
+
+#rel{
+    height: 250px;
+}
+
+#title{
+    height: 150px;
+    margin-right: 250px;
+}
+
+.text-pag1{
+    display: flex;
+    padding-left: 50px;
+}
+
+.text-pag1 p {
+    color: bisque;
+    font-size: 25px;
+}
+
+#soldado{
+    width: 300px;
+    right: 100px;
+}
+
+.button {
+    background-color: #3E2A1C;
+    color: #E2D2C0;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #5B3A2A;
+}
+
+.button-pag1{
+    display: flex;
+    justify-content: center;
+}
+
+.pagina2{
+    height: 100vh;
+    width: 100%;
+    background: url("imagem/fundo-pag2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.title-pag2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.title-pag2 p {
+    font-size: 40px;
+}
+
+.button-pag2{
+    display: flex;
+    justify-content: center;
+}
+
+.text-pag2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.text-pag2 p {
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+}
+
+.button2 {
+    background-color: #3E2A1C;
+    color: #E2D2C0;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagina3{
+    height: 100vh;
+    width: 100%;
+    background: url("imagem/fundo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.pag3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+
+.title-pag3 p {
+    font-size: 40px;
+    color: #D2B99C;
+}
+
+.text-pag3 p {
+    font-size: 25px;
+    color: #FDECD4;
+}
+
+.button-pag3{
+    margin-top: 30px;
+}
+
+.button3{
+    background-color: #FDECD4;
+    color: #D2B99C;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagina4{
+    height: 100vh;
+    width: 100vw;
+    background-color: #D2B99C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.pag4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+
+.text-pag4{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text1{
+    display: flex;
+}
+
+.text2{
+    display: flex;
+}
+
+.text2 p {
+    width: 50%;
+    margin: 50px;
+}
+
+.text2 img{
+    width: 10%;
+    height: 10%;
+}
+
+.button4{
+    background-color: #5B3A2A;
+    color: #D2B99C;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagina5{
+    height: 100vh;
+    width: 100%;
+    background: url("imagem/fundo-pag5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.pag5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.title-pag5 p {
+    font-size: 40px;
+}
+
+.text-pag5 p {
+    font-size: 25px;
+}
+
+.button-pag5{
+    margin-top: 30px;
+}
+
+.button5{
+    background-color: #5B3A2A;
+    color: #D2B99C;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagina6{
+    height: 100vh;
+    width: 100%;
+    background-color: #3E2A1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.img-pag6{
+    background-image: url("imagem/img-pag6.png");
+    height: 100%;
+    width: 60%;
+}
+
+.pag6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+
+.title-pag6 p {
+    font-size: 40px;
+    color: #E2D2C0;
+}
+
+.text-pag6 ul{
+    text-align: left;
+    flex-direction: column;
+}
+
+.text-pag6 ul li{
+    margin: 5px;
+    color: #E2D2C0;
+}
+
+.button-pag6{
+    margin-top: 50px;
+}
+
+.button6 {
+    background-color: #D2B99C;
+    color: #E2D2C0;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagina7{
+    height: 100vh;
+    width: 100%;
+    background-image: url("imagem/fundo-pag7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.pag7{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+
+.title-pag7 p {
+    font-size: 40px;
+    color: #3E2A1C;
+}
+
+.text-pag7 ul{
+    text-align: left;
+    flex-direction: column;
+}
+
+.text-pag7 ul li{
+    font-size: 15px;
+    margin: 5px;
+    color: #3E2A1C;
+}
+
+.button-pag7{
+    margin-top: 50px;
+}
+
+.button7 {
+    background-color: #3E2A1C;
+    color: #E2D2C0;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagina8{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("imagem/fundo-pag8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.pag8{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+}
+
+.title-pag8 p {
+    font-size: 40px;
+    color: #3E2A1C;
+}
+
+.text-pag8 ul{
+    padding: 50px;
+    text-align: left;
+    flex-direction: column;
+}
+
+.text-pag8 ul li{
+    font-size: 15px;
+    color: #3E2A1C;
+}
+
+.text-pag8 ul p{
+    color: #3E2A1C;
+}
+
+.button-pag8{
+    margin-top: 50px;
+}
+
+.button8 {
+    background-color: #3E2A1C;
+    color: #E2D2C0;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagina9{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("imagem/fundo-pag9.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
